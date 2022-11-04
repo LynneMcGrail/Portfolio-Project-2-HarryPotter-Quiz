@@ -1,8 +1,8 @@
-const question = document.querySelector('#question')
-const choices = Array.from(document.querySelectorAll('.choice-text'))
-const progressText = document.querySelector('#progressText')
-const scoreText = document.querySelector('#score')
-const progressBarFull = document.querySelector('#progressBarFull')
+const question = document.querySelector('#question');
+const choices = Array.from(document.querySelectorAll('.choice-text'));
+const progressText = document.querySelector('#progressText');
+const scoreText = document.querySelector('#score');
+const progressBarFull = document.querySelector('#progressBarFull');
 
 let currentQuestion = {}
 let acceptingAnswers = true
@@ -84,6 +84,14 @@ let questions = [
         answer: 3,
     },
     {
+        question: "What house does the sorting hat almost sort Harry into?",
+        choice1: 'Slytherin',
+        choice2: 'Hufflepuff',
+        choice3: 'Ravenclaw',
+        choice4: 'Gryffindor',
+        answer: 4,
+    },
+    {
         question: "What does Professor Fliwick teach in Hogwarts",
         choice1: 'Charms',
         choice2: 'Potions',
@@ -142,7 +150,7 @@ choices.forEach(choice => {
             incrementScore(SCORE_POINTS)
         }
 
-        selectedChoice.parentElement.classList.add(classtoApply)
+        selectedChoice.parentElement.classList.add(classToApply)
 
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply)
