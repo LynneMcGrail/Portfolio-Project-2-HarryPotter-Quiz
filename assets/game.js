@@ -90,7 +90,7 @@ let questions = [
         choice3: 'Defense against the dark arts',
         choice4: 'Transfiguration',
         answer: 1,
-    },
+    }
 ]
 
 const SCORE_POINTS = 100
@@ -114,7 +114,7 @@ getNewQuestion = () => {
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
 
-    const questionsIndex = Math.floor(Math.random() * availableQuestionsLength)
+    const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
     currentQuestion = availableQuestions[questionsIndex]
     question.innerText = currentQuestion.question
 
