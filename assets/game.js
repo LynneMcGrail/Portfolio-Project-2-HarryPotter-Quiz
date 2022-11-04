@@ -128,7 +128,7 @@ getNewQuestion = () => {
     acceptingAnswers = true
 }
 
-choices.forEach(choice=> {
+choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if(!acceptingAnswers) return
         
@@ -138,7 +138,7 @@ choices.forEach(choice=> {
 
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
 
-        if(classToApply == 'correct') {
+        if(classToApply === 'correct') {
             incrementScore(SCORE_POINTS)
         }
 
