@@ -46,7 +46,7 @@ let questions = [
     {
         question: "What does Harry's wand contain?",
         choice1: 'Dragon heartstring',
-        choice2: 'Phoenix feather core',
+        choice2: 'Phoenix feather',
         choice3: 'Unicorn hair',
         choice4: 'Basilisk horn',
         answer: 2,
@@ -89,7 +89,7 @@ let questions = [
         choice2: 'Hufflepuff',
         choice3: 'Ravenclaw',
         choice4: 'Gryffindor',
-        answer: 4,
+        answer: 1,
     },
     {
         question: "What does Professor Fliwick teach in Hogwarts",
