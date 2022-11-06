@@ -54,13 +54,6 @@ h1 {
         1px 30px 60px rgba(16, 16, 16, 0.4);
 }
 
-/* 
-h1 {
-    font-size: 5.4rem;
-    color: #fff;
-    margin-bottom: 5rem;
-} */
-
 h2 {
     font-size: 4.2 rem;
     margin-bottom: 4rem;
@@ -68,7 +61,7 @@ h2 {
 
 .container {
     width: 100vw;
-    height: 80vh;
+    height: 65vh;
     display: flex;
     justify-content: center;
     align-items: center;
