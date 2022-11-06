@@ -23,19 +23,6 @@ html {
 
 /* header styling */
 
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-}
-
-.hogwarts-logo {
-    justify-self: center;
-    align-self: center;
-}
-
 h1 {
     font-size: 4rem;
     font-family: 'Pathway Gothic', cursive;
