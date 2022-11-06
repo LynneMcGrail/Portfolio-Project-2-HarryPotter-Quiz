@@ -177,3 +177,19 @@ input::placeholder {
     font-size: 2rem;
     color: rgb(28, 26, 26)
 }
+
+.social-networks {
+    list-style: none;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 5px 25px 5px 25px;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: 5px 25px 5px 25px;
+}
