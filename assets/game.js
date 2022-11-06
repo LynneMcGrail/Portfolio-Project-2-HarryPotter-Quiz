@@ -130,7 +130,7 @@ startGame = () => {
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
-
+        console.error("You made a mistake");
         return window.location.assign('../end.html')
     }
 
