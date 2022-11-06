@@ -5,10 +5,10 @@
 ## Goals for this project 
 This Harry Potter Quiz is an interactive online quiz designed for users who would like to test their knowledge of the Harry Potter universe in a fun way and a means to calculate the final score and compare it on the leaderboard of highscores.
 
-* [Here is a link to the final project](https://lynnemcgrail.github.io/take-a-hike/) 
+* [Here is a link to the live site - Harry Potter Quiz](https://lynnemcgrail.github.io/Portfolio-Project-2-HarryPotter-Quiz/) 
 
 ## Final Design 
-![Final project image home page](assets/readme-docs/testing:am-i-responsive.png)
+![Final project image home page]()
 
 ## Initial Idea Concept
 My initial idea for the project was to create an informative and welcoming website about the activity of hiking in Ireland. My target audience is anyone who is interested in the activity itself or seeking to benefit their health and well-being, whilst meeting new people and establishing social connections.
