@@ -108,7 +108,7 @@ let questions = [
         answer: 1,
     },
     {
-        question: "What does Professor Fliwick teach in Hogwarts",
+        question: "What does Professor Flitwick teach in Hogwarts",
         choice1: 'Charms',
         choice2: 'Potions',
         choice3: 'Defense against the dark arts',
