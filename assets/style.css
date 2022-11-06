@@ -1,4 +1,7 @@
+/* google font */ 
 @import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Pathway+Gothic+One&display=swap');
+
+/* body style */ 
 
 :root {
     background-color: rgb(29, 26, 26);
@@ -12,11 +15,47 @@
     font-family: 'Pathway Gothic', cursive;
 }
 
+html {
+    background: url("images/HP-bg-image.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* header styling */
+
+.hogwarts-logo {
+    justify-self: center;
+    align-self: center;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Pathway Gothic', cursive;
+    color: #fff9e6;
+    align-self: center;
+    text-align: center;
+    /* code for h1 3d effect can be found here: https://codepen.io/ryandsouza13/pen/yEBJQV */
+    text-shadow: 1px 1px 1px #4a0600,
+        1px 2px 1px #4a0600,
+        1px 3px 1px #4a0600,
+        1px 4px 1px #4a0600,
+        1px 5px 1px #4a0600,
+        1px 6px 1px #4a0600,
+        1px 7px 1px #4a0600,
+        1px 8px 1px #4a0600,
+        1px 9px 1px #4a0600,
+        1px 10px 1px #4a0600,
+        1px 18px 6px rgba(16, 16, 16, 0.4),
+        1px 22px 10px rgba(16, 16, 16, 0.2),
+        1px 25px 35px rgba(16, 16, 16, 0.2),
+        1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+
+/* 
 h1 {
     font-size: 5.4rem;
     color: #fff;
     margin-bottom: 5rem;
-}
+} */
 
 h2 {
     font-size: 4.2 rem;
@@ -90,6 +129,11 @@ flex-center {
 }
 
 .fa-crown {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+.fa-broom {
     font-size: 2.5rem;
     margin-left: 1rem;
 }

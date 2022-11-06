@@ -60,7 +60,7 @@ let questions = [
         answer: 1,
     },
     {
-        question: "What is the Padfoot the animagus dog's real name?",
+        question: "What is Padfoot's real name?",
         choice1: 'James Potter',
         choice2: 'Peter Pettigrew',
         choice3: 'Arthur Weasley',
@@ -68,7 +68,7 @@ let questions = [
         answer: 4,
     },
     {
-        question: "Which vault do Harry and Hagrid visit to get Harry's money in Gringott's Wizarding Bank?",
+        question: "Which vault do Harry & Hagrid visit to get Harry's money in Gringott's Wizarding Bank?",
         choice1: 'Vault 177',
         choice2: 'Vault 687',
         choice3: 'Vault 928',
@@ -82,6 +82,22 @@ let questions = [
         choice3: 'Norbert',
         choice4: 'Trevor',
         answer: 3,
+    },
+    {
+        question: "How are the students sorted into their houses?",
+        choice1: 'Spell test',
+        choice2: 'Broom race',
+        choice3: 'The sorting hat',
+        choice4: 'A duel',
+        answer: 3,
+    },
+    {
+        question: "Who has the ability to talk to snakes?",
+        choice1: 'Squibs',
+        choice2: 'Parseltongues',
+        choice3: 'Dementors',
+        choice4: 'Trolls',
+        answer: 2,
     },
     {
         question: "What house does the sorting hat almost sort Harry into?",
