@@ -126,7 +126,6 @@ startGame = () => {
     availableQuestions = [...questions]
     getNewQuestion()
 }
-console.error("You made a mistake"); // take this out before submission
 
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
