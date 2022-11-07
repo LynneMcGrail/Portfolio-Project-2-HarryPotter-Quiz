@@ -102,3 +102,9 @@ body {
     color: #fff;
     cursor: pointer;
 }
+
+.home-btn {
+    width: 15rem;
+    height: 3rem;
+    padding-bottom: 5.5rem;
+}
