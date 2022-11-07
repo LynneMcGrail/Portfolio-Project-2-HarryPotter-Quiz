@@ -203,3 +203,13 @@ input::placeholder {
     color: #fff;
     cursor: pointer;
 }
+
+.social-networks a, p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 2.5rem;
+    color: #aaa;
+    margin-top: 20px;
+}
