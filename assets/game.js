@@ -162,15 +162,19 @@ choices.forEach(choice => {
         const selectedAnswer = selectedChoice.dataset['number']
 
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
-
+        const correctAnswer = choices[currentQuestion.answer - 1]
         if(classToApply === 'correct') {
             incrementScore(SCORE_POINTS)
+        }
+        else if(classToApply === 'incorrect'){
+            correctAnswer.parentElement.classList.add('correct')
         }
 
         selectedChoice.parentElement.classList.add(classToApply)
 
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply)
+            correctAnswer.parentElement.classList.remove('correct')
             getNewQuestion()
 
         }, 1000)
