@@ -54,6 +54,10 @@ h1 {
         1px 30px 60px rgba(16, 16, 16, 0.4);
 }
 
+.home-title {
+    font-size: 6rem;
+}
+
 h2 {
     font-size: 4.2 rem;
     margin-bottom: 4rem;
@@ -61,7 +65,7 @@ h2 {
 
 .container {
     width: 100vw;
-    height: 65vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,7 +208,7 @@ input::placeholder {
     cursor: pointer;
 }
 
-/* .social-networks a, p {
+footer p {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5rem;
@@ -213,4 +217,3 @@ input::placeholder {
     color: #aaa;
     margin-top: 20px;
 }
-*/
