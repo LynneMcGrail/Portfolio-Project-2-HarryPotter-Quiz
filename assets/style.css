@@ -204,7 +204,7 @@ input::placeholder {
     cursor: pointer;
 }
 
-.social-networks a, p {
+/* .social-networks a, p {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5rem;
@@ -213,3 +213,4 @@ input::placeholder {
     color: #aaa;
     margin-top: 20px;
 }
+*/
