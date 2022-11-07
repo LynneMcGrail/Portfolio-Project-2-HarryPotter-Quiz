@@ -23,22 +23,18 @@ This Harry Potter Quiz is an interactive online quiz designed for users who woul
 
 ### User Stories
 #### Client Goals
-* The quiz needs to be easily accessible, with instructions and audio settings available throughout.
-* The quiz needs to be personalised to each user.
-* It needs to be easy to see how many questions there are, and how many correct answers have been made throughout the quiz.
+* The quiz needs to be easily accessible to navigate and manouver throughout the site.
+* The quiz end score needs to be personalised to each user.
+* It needs to be easy to see how many questions there are.
+* It needs to be displayed how many correct points the user has achieved throughout the quiz.
 * It needs to be instantly engaging to enourage the user to play the game.
 * Questions needs to be randomised and drawn from a large bank of available questions.
-* It must be easy to see how much time the user has left to complete the quiz.
-* Manouvering around the site needs to be straightforward.
 * The user must be able to give up on the quiz if they wish to, and return to the homepage.
 
 #### First Time Visitor Goals
-* I want it to be easy to understand what to do.
-* I want to be able to easily navigate throughout the site.
-* I want to be able to turn the audio on or off at any point in the quiz.
+* I want it to be easy to understand how to start playing.
+* I want it to be able to easily navigate throughout the site.
+* I want the user to be able to visit the leaderboard at any point.
 
-#### Returning Visitor Goals
-* I want to have different questions depending on which house I choose, increasing replayability.
-
-#### Frequent Visitor Goals
-* I want to be able to play the quiz again with new questions.
+#### Returning & Frequent Visitor Goals
+* I want to have different questions by randomising the question generator, in order to increase replayability and enhance user experience.
