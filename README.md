@@ -85,3 +85,11 @@ It is intuitively designed so the user can easily navigate it, along with visibl
 * Upon activation, the background music is the Harry Potter theme song, instantly recognised by Harry Potter fans and provides an immersive magical experience creating the atmosphere of the Harry Potter phenomenon.
 * On the quiz starting the user will notice two informative icons are added to their gameplay experience: the game progress bar, and the user's score.
 * On completion of the game the user will notice the ability to enter their username, save their score, visit the House Cup leaderboard, and be able to navigate to the home page or play the quiz again.
+
+[insert images here of navigation]
+
+## Home Screen
+* The Home Screen is the screen that's visible first when the user enters the site. It is designed to be immediately recognisable to the user and easily allow the user to immediately start playing the quiz.
+* In the middle of the screen, the user will see the quiz main content centered, a familiar quote from the books and movies "I solemnly swear that I am up to no good" and this is lay over a very recognisable Harry Potter themed background, the Hogwart's Castle.
+* The title and logo sit on top of the quiz content, again giving the user information as to what topic the quiz is about.
+* The user is presented with two buttons; a play button, and a Highscores button and from here the user has all that is required to play the quiz.
