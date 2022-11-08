@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,28 +9,32 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/320dc60c23.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="container">
         <div id="end" class="flex-center flex-column">
+            <div class="audio-button">
+                <button class="button" id="audio" onclick="toggleMusic()"><i class="fas fa-volume-up"></i><br>Audio
+                    on</button>
+            </div>
             <h1 id="finalScore">0</h1>
-            <form class="end-form-container">
+            <form action="highscores.html" class="end-form-container">
                 <h2 id="end-text">Enter your name below to save your score!</h2>
-                <input type="text" name="name" id="username" placeholder="Enter your name">
-                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)">Save</button>
+                <input id="username" type="text" name="name" placeholder="Enter your name" required>
             </form>
+
+            <input class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" value="Save">
             <a href="game.html" class="btn">Play Again</a>
             <a href="index.html" class="btn">Go Home<i class="fas fa-home"></i></a>
         </div>
-    </div>
-    <div>
-        <button class="button" id="audio" onclick="toggleMusic()"><i class="fas fa-volume-up"></i><br>Audio on</button>
     </div>
 
     <footer>
         <ul class="social-networks">
             <li>
                 <a href="https://github.com/LynneMcGrail" target="_blank" rel="noopener"
-                    aria-label="Visit my Github for my portfolio (opens in new tab)"><i class="fa-brands fa-github"></i></a>
+                    aria-label="Visit my Github for my portfolio (opens in new tab)"><i
+                        class="fa-brands fa-github"></i></a>
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/lynne-mcgrail-24b880229/" target="_blank" rel="noopener"
@@ -39,7 +44,8 @@
         </ul>
         <p>For Educational Purposes Only</p>
     </footer>
-    
+
     <script src="assets/js/end.js"></script>
 </body>
+
 </html>
