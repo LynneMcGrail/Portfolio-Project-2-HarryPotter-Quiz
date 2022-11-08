@@ -121,12 +121,23 @@ It is intuitively designed so the user can easily navigate it, along with visibl
 ### Solved bugs and errors
 
 [insert here]
+## Validation and Accessibility
+
+## **Lighthouse**
+### **Lighthouse Report:**
+* All pages of the site were tested using the lighthouse function built into the Google Chrome browser on incognito mode.
+  
+  <img width="400" src="">
+  <br>
+  <img width="400" src="">
+  <br>
+  <img width="400" src="">
+<br>
 
 ## Accessibility
-### **WAVE Webaim Accessibility test report:**
-
+### **WAVE Webaim Accessibility reports:**
 * The WAVE tool was used to test all four pages on the site.
-  As before a summary of results is shown as well as links to the individual results.  
+  See the summary of results below with links to the individual page results.  
     
   * [Link to Home Page (index.html) WAVE result](https://wave.webaim.org/report#/https://lynnemcgrail.github.io/Portfolio-Project-2-HarryPotter-Quiz/index.html)  
   * [Link to Quiz Game Page (game.html) WAVE result](https://wave.webaim.org/report#/https://lynnemcgrail.github.io/Portfolio-Project-2-HarryPotter-Quiz/game.html)  
