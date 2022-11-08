@@ -1,9 +1,8 @@
 # PORTFOLIO PROJECT - 2 JAVASCRIPT #
 
-# Harry Potter Quiz #
-
-### Goals for this project 
-This Harry Potter Quiz is an interactive online quiz designed for users who would like to test their knowledge of the Harry Potter universe, in a fun way and a means to calculate the final score and compare it on the leaderboard of highscores, a.k.a The Hogwarts House Cup. My target audience is Harry Potter fans and their friends and family. This covers a large part of the population. The target demographic is incredibly mixed, as Harry Potter is enjoyed by people of all ages and genders.
+# Harry Potter Quiz
+## Purpose
+A Quiz is an intellectual game where the user's knowledge is tested in both a challenging and entertaining way, with feedback on each answer (correct or incorrect) and joining the leaderboard on completion.
 
 * [Here is a link to the live site - Harry Potter Quiz](https://lynnemcgrail.github.io/Portfolio-Project-2-HarryPotter-Quiz/) 
 
@@ -12,7 +11,7 @@ This Harry Potter Quiz is an interactive online quiz designed for users who woul
 
 ### Initial Requirements
 #### The main features that I wanted to include are:
-* Interactive quiz elements.
+* Interactive quiz elements to enhance user experience.
 * A progress bar so that the user can see how far through the quiz they are.
 * A score counter for correct answers.
 * For the quiz to highlight the correct answer in green, should the user guess the incorrect answer (highlighted in red) throughout the gameplay. 
@@ -21,14 +20,15 @@ This Harry Potter Quiz is an interactive online quiz designed for users who woul
 * Look fun and interactive through colours, images and icons which are symbolic of The Wizarding World of Harry Potter. Note the broomstick and castle used within the quiz.
 * To include social network links in the footer to my professional portfolio, my Github and Linkedin accounts.
 
-### User Stories
-#### Client Goals
+# User Experience (UX)
+## User Stories
+### Client Goals
 * The quiz needs to be easily accessible to navigate and manouver throughout the site.
 * The quiz end score needs to be personalised to each user.
 * It needs to be easy to see how many questions there are.
 * It needs to be displayed how many correct points the user has achieved throughout the quiz.
 * It needs to be instantly engaging to enourage the user to play the game.
-* Questions needs to be randomised and drawn from a large bank of available questions.
+* Questions will be randomised and drawn from a bank of available questions.
 * The user must be able to give up on the quiz if they wish to, and return to the homepage.
 
 #### First Time Visitor Goals
