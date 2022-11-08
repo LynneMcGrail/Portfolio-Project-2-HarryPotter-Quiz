@@ -13,8 +13,8 @@
 
 <body>
     <!-- head up display to display current question and score as user plays -->
-    <div class="container">
-        <div id="game" class="justify-center flex-column">
+    <div class="game-container">
+        <div id="game" class="justify-center">
             <div id="hud">
                 <a href="index.html" class="btn home-btn">Home<i class="fa-brands fa-fort-awesome"></i></a>
                 <div class="hud-item">
@@ -33,8 +33,9 @@
                         0
                     </h1>
                 </div>
-                <div>
-                    <button class="button" id="audio" onclick="toggleMusic()"><i class="fas fa-volume-up"></i><br>Audio on</button>
+                <div class="audio-button">
+                    <button class="button" id="audio" onclick="toggleMusic()"><i class="fas fa-volume-up"></i><br>Audio
+                        on</button>
                 </div>
             </div>
             <h1 id="question">Insert question here</h1>
