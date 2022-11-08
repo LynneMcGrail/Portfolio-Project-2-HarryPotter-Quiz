@@ -40,7 +40,6 @@ saveHighScore = e => {
 let music = "off";
 const quizAudio = new Audio('assets/sounds/Fire-sound.mp3');
 
-
 // Audio settings
 // Toggle
 
