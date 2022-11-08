@@ -64,7 +64,7 @@ The Harry Potter quiz consists of multiple screens as the user interacts with an
 ## Design Choices
 ### Colour Scheme 
 The final color scheme chosen was a rich dark red (scarlet) colour, and a gold colour. This colour scheme directly links back with the theme of the project: Harry Potter. These colours are often associated with Harry Potter, the main character, because of his association with the Gryffindor house, who's colours are red / scarlet and gold. The other colours used tie in with the theme of the project, which you can see the Hogwart's castle is captured at night, therefore the other colours used compliment the appearance and user experience. I used Coolors as my color palette generator to see them compliment each other side by side.
-![Site colour scheme](assets/readme-images/color-palette.png)
+![Site colour scheme](assets/readme-docs/color-palette.png)
 
 ### Typography
 The fonts chosen were Pathway Gothic and set to cursive for the main text, Sans-serif is the fallback font. I used Google Fonts to import into my css styling.
@@ -93,3 +93,62 @@ It is intuitively designed so the user can easily navigate it, along with visibl
 * In the middle of the screen, the user will see the quiz main content centered, a familiar quote from the books and movies "I solemnly swear that I am up to no good" and this is lay over a very recognisable Harry Potter themed background, the Hogwart's Castle.
 * The title and logo sit on top of the quiz content, again giving the user information as to what topic the quiz is about.
 * The user is presented with two buttons; a play button, and a Highscores button and from here the user has all that is required to play the quiz.
+
+## HTML
+**HTML Validator results:**
+  All HTML was passed through the validator retreived from the source code within devtools on Chrome.<br>
+
+  **Index.html:**<br>
+  <img width="600" src="assets/readme-docs/HTMLValidator-index.png">
+
+  **Game.html:**<br>
+  <img width="600" src="assets/readme-docs/HTMLValidator-game.png">
+
+  **Highscores.html:**<br>
+  <img width="600" src="assets/readme-docs/HTMLValidator-highscores.png">
+
+  **End.html:**<br>
+  <img width="600" src="assets/readme-docs/HTMLValidator-end.png">
+
+## Functionality
+* All buttons and links have been hovered over and clicked on to ensure accessibility
+* All networking links work correctly and open in a new tab
+* All pages load correctly across all device screen sizes - see devices tested in testing section
+* Functional buttons worked as intended on different device screen sizes
+* All images and sound clips load on each page as intended
+
+## Bugs and errors
+### Solved bugs and errors
+
+[insert here]
+
+## Accessibility
+### **WAVE Webaim Accessibility test report:**
+
+* The WAVE tool was used to test all four pages on the site.
+  As before a summary of results is shown as well as links to the individual results.  
+    
+  * [Link to Home Page (index.html) WAVE result](https://wave.webaim.org/report#/https://lynnemcgrail.github.io/Portfolio-Project-2-HarryPotter-Quiz/index.html)  
+  * [Link to Quiz Game Page (game.html) WAVE result](https://wave.webaim.org/report#/https://lynnemcgrail.github.io/Portfolio-Project-2-HarryPotter-Quiz/game.html)  
+  * [Link to End Game Page (end.html) WAVE result](https://wave.webaim.org/report#/https://lynnemcgrail.github.io/Portfolio-Project-2-HarryPotter-Quiz/end.html) 
+  * [Link to Highscores Page (highscores.html) WAVE result](https://wave.webaim.org/report#/https://lynnemcgrail.github.io/Portfolio-Project-2-HarryPotter-Quiz/highscores.html)
+
+
+## CSS
+**CSS Validator results:**
+  The style CSS file was tested<br>
+  **style.css**<br>
+  <img width="600" src="assets/readme-docs/CSSValidator-style_css.png">
+  * [Link to CSS highscores validator report](http://jigsaw.w3.org/css-validator/validator$link) 
+
+  The game CSS file was tested<br>
+  **game.css**<br>
+  <img width="600" src="assets/readme-docs/CSSValidator-game_css.png">
+  * [Link to CSS highscores validator report](http://jigsaw.w3.org/css-validator/validator$link) 
+
+The highscores CSS file was tested<br>
+  **highscores.css**<br>
+  <img width="600" src="assets/readme-docs/CSSValidator-highscores_css.png">
+  * [Link to CSS highscores validator report](http://jigsaw.w3.org/css-validator/validator$link) 
+
+  
