@@ -15,7 +15,7 @@ function whichMusic() { // Ability to play or pause audio to enhance experience 
     if (music === "on") {
         quizAudio.play();
     } else {
-        (music === "off")
+        (music = "off")
         quizAudio.pause();
     }
 }
