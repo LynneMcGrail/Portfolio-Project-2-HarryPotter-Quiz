@@ -63,4 +63,12 @@ The Harry Potter quiz consists of multiple screens as the user interacts with an
 
 ## Design Choices
 ### Colour Scheme 
-The final color scheme chosen was a rich dark red (scarlet) colour, and a gold colour. This colour scheme directly links back with the theme of the project: Harry Potter. These colours are often associated with Harry Potter, the main character, because of his association with the Gryffindor house, who's colours are red / scarlet and gold. The other colours used tie in with the theme of the project, which you can see the Hogwart's castle is captured at night, therefore the other colours used compliment the appearance and user experience. 
+The final color scheme chosen was a rich dark red (scarlet) colour, and a gold colour. This colour scheme directly links back with the theme of the project: Harry Potter. These colours are often associated with Harry Potter, the main character, because of his association with the Gryffindor house, who's colours are red / scarlet and gold. The other colours used tie in with the theme of the project, which you can see the Hogwart's castle is captured at night, therefore the other colours used compliment the appearance and user experience. I used Coolors as my color palette generator to see them compliment each other side by side.
+![Site colour scheme](assets/readme-images/color-palette.png)
+
+### Typography
+The fonts chosen were Pathway Gothic and set to cursive for the main text, Sans-serif is the fallback font. I used Google Fonts to import into my css styling.
+
+I chose this font as it ties nicely with the theme of the project. There is quite a historic vintage feel to the font, and with the right styling I think it fits in with the Harry Potter theme and also works well alongside the Harry Potter logo in my project. 
+
+[Back to top](<#contents>)
