@@ -1,5 +1,5 @@
 const username = document.querySelector('#username')
-const saveScoreBtn = document.querySelector('#saveScoreBtn')
+let saveScoreBtn = document.querySelector('#saveScoreBtn')
 const finalScore = document.querySelector('#finalScore')
 const mostRecentScore = localStorage.getItem('mostRecentScore')
 
@@ -13,7 +13,7 @@ username.addEventListener('keyup', () => {
     saveScoreBtn = username.value
 })
 
-saveHighScore = e => {
+let saveHighScore = e => {
     e.preventDefault()
 
     const score = {
@@ -50,7 +50,7 @@ function whichMusic() { // Ability to play or pause audio to enhance experience 
     if (music === "on") {
         quizAudio.play();
     } else {
-        (music === "off")
+        (music = "off")
         quizAudio.pause();
     }
 }
