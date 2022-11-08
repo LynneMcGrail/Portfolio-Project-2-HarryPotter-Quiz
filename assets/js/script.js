@@ -1,23 +1,23 @@
-// ---------------------------------------------------------------- Audio variables
+// Audio variables
 
 let music = "off";
 const quizAudio = new Audio('assets/sounds/hedwigs-theme.mp3');
 
 
-// ----------------------------------------------------------------------------------------------------------------------------------------- Audio settings
+// Audio settings
 
-// ---------------------------------------------------------------- Toggle
+// Toggle
 
 quizAudio.loop = true;
 
 function whichMusic() { // Ability to play or pause audio to enhance experience on entering the quiz site
 
     if (music === "on") {
-            quizAudio.play();
-        } else {
-            (music === "off")
-            quizAudio.pause();
-        }
+        quizAudio.play();
+    } else {
+        (music === "off")
+        quizAudio.pause();
+    }
 }
 
 function checkAudioButtons() {
@@ -37,4 +37,3 @@ function toggleMusic() { // So that the user can toggle the music off or on
     checkAudioButtons();
     whichMusic();
 }
-
