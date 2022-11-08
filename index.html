@@ -20,11 +20,15 @@
 </head>
 
 <body>
+    
     <header>
         <img class="hogwarts-logo" src="assets/images/hogwartscrest.png"
             alt="An image of the Hogwarts school of witchcraft and wizardry crest" height="150" width="150">
         <h1 class="home-title">Harry Potter Quiz</h1>
     </header>
+    <div class="audio-button">
+        <button class="button" id="audio" onclick="toggleMusic()"><i class="fas fa-volume-up"></i><br>Audio on</button>
+    </div>
     <div>
         <div id="home" class="flex-column flex-center">
             <h1>I solemnly swear <br>that I am up to no good . . .</h1>
@@ -33,9 +37,7 @@
         </div>
     </div>
 
-    <div>
-        <button class="button" id="audio" onclick="toggleMusic()"><i class="fas fa-volume-up"></i><br>Audio on</button>
-    </div>
+    
 
     <footer>
         <ul class="social-networks">
