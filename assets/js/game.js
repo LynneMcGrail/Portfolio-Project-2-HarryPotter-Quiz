@@ -10,8 +10,7 @@ let score = 0
 let questionCounter = 0
 let availableQuestions = []
 
-let questions = [
-    {
+let questions = [{
         question: "What age is Harry when he receives his Hogwart's letter?",
         choice1: '7',
         choice2: '15',
@@ -118,7 +117,7 @@ let questions = [
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS =  10
+const MAX_QUESTIONS = 10
 
 startGame = () => {
     questionCounter = 0
@@ -128,7 +127,7 @@ startGame = () => {
 }
 
 getNewQuestion = () => {
-    if(availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+    if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
         return window.location.assign('end.html')
@@ -154,18 +153,17 @@ getNewQuestion = () => {
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
-        if(!acceptingAnswers) return
-        
+        if (!acceptingAnswers) return
+
         acceptingAnswers = false
         const selectedChoice = e.target
         const selectedAnswer = selectedChoice.dataset['number']
 
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
         const correctAnswer = choices[currentQuestion.answer - 1]
-        if(classToApply === 'correct') {
+        if (classToApply === 'correct') {
             incrementScore(SCORE_POINTS)
-        }
-        else if(classToApply === 'incorrect'){
+        } else if (classToApply === 'incorrect') {
             correctAnswer.parentElement.classList.add('correct')
         }
 
@@ -177,15 +175,15 @@ choices.forEach(choice => {
             getNewQuestion()
 
         }, 1000)
-      })
     })
+})
 
-    incrementScore = num => {
-        score +=num
-        scoreText.innerText = score
-    }
+incrementScore = num => {
+    score += num
+    scoreText.innerText = score
+}
 
-    startGame()
+startGame()
 
 // Audio variables
 
@@ -201,11 +199,11 @@ quizAudio.loop = true;
 function whichMusic() { // Ability to play or pause audio to enhance experience on entering the quiz site
 
     if (music === "on") {
-            quizAudio.play();
-        } else {
-            (music === "off")
-            quizAudio.pause();
-        }
+        quizAudio.play();
+    } else {
+        (music === "off")
+        quizAudio.pause();
+    }
 }
 
 function checkAudioButtons() {
@@ -225,4 +223,3 @@ function toggleMusic() { // So that the user can toggle the music off or on
     checkAudioButtons();
     whichMusic();
 }
-
