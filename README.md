@@ -72,3 +72,16 @@ The fonts chosen were Pathway Gothic and set to cursive for the main text, Sans-
 I chose this font as it ties nicely with the theme of the project. There is quite a historic vintage feel to the font, and with the right styling I think it fits in with the Harry Potter theme and also works well alongside the Harry Potter logo in my project. 
 
 [Back to top](<#contents>)
+
+# Features
+This Harry Potter Quiz was created to produce an immersive experience for the user through the use of both design and site structure. It moves away from the typical website structure with the menubar and is structured and designed more like a game.
+
+It is intuitively designed so the user can easily navigate it, along with visible and recognisable Home and Sound button icons, and visual ques reflecting the topic.
+
+## Navigation
+* The site navigation is done through the clickable buttons which easily indicate how to navigate the game to the user. Throughout the site the user will find these buttons at hand to navigate away from their current stage at any point.
+* The user can navigate to the home screen from wherever they are in the quiz through the home button. This has an icon of a castle, significant to the theme itself and easily recognised as a 'home' button feature. 
+* The sound button is automatically muted on the website loading, but the sound can be activated or muted by the user, as they wish.
+* Upon activation, the background music is the Harry Potter theme song, instantly recognised by Harry Potter fans and provides an immersive magical experience creating the atmosphere of the Harry Potter phenomenon.
+* On the quiz starting the user will notice two informative icons are added to their gameplay experience: the game progress bar, and the user's score.
+* On completion of the game the user will notice the ability to enter their username, save their score, visit the House Cup leaderboard, and be able to navigate to the home page or play the quiz again.
