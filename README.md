@@ -88,8 +88,8 @@ It is intuitively designed so the user can easily navigate it, along with visibl
 
 [insert images here of navigation]
 
-## Home Screen
-* The Home Screen is the screen that's visible first when the user enters the site. It is designed to be immediately recognisable to the user and easily allow the user to immediately start playing the quiz.
+## Home Page
+* The Home Page is the screen that's visible first when the user enters the site. It is designed to be immediately recognisable to the user and easily allow the user to immediately start playing the quiz.
 * In the middle of the screen, the user will see the quiz main content centered, a familiar quote from the books and movies "I solemnly swear that I am up to no good" and this is lay over a very recognisable Harry Potter themed background, the Hogwart's Castle.
 * The title and logo sit on top of the quiz content, again giving the user information as to what topic the quiz is about.
 * The user is presented with two buttons; a play button, and a Highscores button and from here the user has all that is required to play the quiz.
@@ -125,14 +125,16 @@ It is intuitively designed so the user can easily navigate it, along with visibl
 
 ## **Lighthouse**
 ### **Lighthouse Report:**
-* All pages of the site were tested using the lighthouse function built into the Google Chrome browser on incognito mode.
+* The quiz was also put through Lighthouse testing via Chrome DevTools which tests the site under 4 different headings; Performance, Accessibility, Best Practices and SEO and it tests it under mobile and desktop criteria.
   
-  <img width="400" src="">
+  <img width="400" src="assets/readme-docs/Lighthouse-indexHTML.png">
   <br>
-  <img width="400" src="">
+  <img width="400" src="assets/readme-docs/Lighthouse-gameHTML.png">
   <br>
-  <img width="400" src="">
-<br>
+  <img width="400" src="assets/readme-docs/Lighthouse-endHTML.png">
+  <br>
+  <img width="400" src="assets/readme-docs/Lighthouse-highscoresHTML.png">
+  <br>
 
 ## Accessibility
 ### **WAVE Webaim Accessibility reports:**
