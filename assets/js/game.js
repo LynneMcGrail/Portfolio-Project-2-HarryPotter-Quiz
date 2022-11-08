@@ -119,14 +119,14 @@ let questions = [{
 const SCORE_POINTS = 100
 const MAX_QUESTIONS = 10
 
-startGame = () => {
+let startGame = () => {
     questionCounter = 0
     score = 0
     availableQuestions = [...questions]
     getNewQuestion()
 }
 
-getNewQuestion = () => {
+let getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
@@ -142,7 +142,7 @@ getNewQuestion = () => {
     question.innerText = currentQuestion.question
 
     choices.forEach(choice => {
-        const number = choice.dataset['number']
+        const number = choice.dataset.number
         choice.innerText = currentQuestion['choice' + number]
     })
 
@@ -157,7 +157,7 @@ choices.forEach(choice => {
 
         acceptingAnswers = false
         const selectedChoice = e.target
-        const selectedAnswer = selectedChoice.dataset['number']
+        const selectedAnswer = selectedChoice.dataset.number
 
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
         const correctAnswer = choices[currentQuestion.answer - 1]
@@ -178,7 +178,7 @@ choices.forEach(choice => {
     })
 })
 
-incrementScore = num => {
+let incrementScore = num => {
     score += num
     scoreText.innerText = score
 }
@@ -201,7 +201,7 @@ function whichMusic() { // Ability to play or pause audio to enhance experience 
     if (music === "on") {
         quizAudio.play();
     } else {
-        (music === "off")
+        (music = "off")
         quizAudio.pause();
     }
 }
