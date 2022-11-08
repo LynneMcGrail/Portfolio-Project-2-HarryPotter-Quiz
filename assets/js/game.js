@@ -188,7 +188,7 @@ startGame()
 // Audio variables
 
 let music = "off";
-const quizAudio = new Audio('assets/sounds/hedwigs-theme.mp3');
+const quizAudio = new Audio('assets/sounds/Hedwigs-theme1.mp3');
 
 
 // Audio settings
