@@ -23,7 +23,7 @@ saveHighScore = e => {
 
     highScores.push(score)
 
-    highScores.sort((a,b) => {
+    highScores.sort((a, b) => {
         return b.score - a.score
     })
 
@@ -49,11 +49,11 @@ quizAudio.loop = true;
 function whichMusic() { // Ability to play or pause audio to enhance experience on entering the quiz site
 
     if (music === "on") {
-            quizAudio.play();
-        } else {
-            (music === "off")
-            quizAudio.pause();
-        }
+        quizAudio.play();
+    } else {
+        (music === "off")
+        quizAudio.pause();
+    }
 }
 
 function checkAudioButtons() {
