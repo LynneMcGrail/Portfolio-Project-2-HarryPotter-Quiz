@@ -133,9 +133,9 @@ let questions = [{
     {
         question: "Which patronus belongs to Harry?",
         choice1: 'Horse',
-        choice2: 'Hare',
+        choice2: 'Dog',
         choice3: 'Stag',
-        choice4: 'Dog',
+        choice4: 'Hare',
         answer: 3,
     },
     {
