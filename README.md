@@ -187,10 +187,6 @@ It is intuitively designed so the user can easily navigate it, along with visibl
 * Functional buttons worked as intended on different device screen sizes
 * All images and sound clips load on each page as intended
 
-## Bugs and errors
-### Solved bugs and errors
-
-[insert here]
 #
 # Testing
 ## Code Validation and Accessibility
@@ -252,6 +248,31 @@ The highscores CSS file was tested<br>
   **highscores.css**<br>
   <img width="600" src="assets/readme-docs/CSSValidator-highscores_css.png">
   * [Link to CSS highscores validator report](http://jigsaw.w3.org/css-validator/validator$link) 
+
+## Functionality
+* All links have been hovered over and clicked on to ensure accessibility
+* All buttons and links work correctly, networking footer links open in a new tab as intended.
+* Audio toggle on / off function works as intended 
+* Pages all load correctly on all device screen sizes
+* Navigation buttons across different devices and screen sizes worked as intended
+* All images and font awesome icons load on as intended
+
+#
+## Bugs and errors
+### Solved bugs and errors
+In my opinion, the site has hit the goals required by all users. The site responds nicely across all different screen sizes, the images look clean and sharp on all device sizes. It allows the user to navigate around easily and aslo make contact with the creator via the networking footer icon links. The site is interactive and provides the user with feedback on their quiz question submissions. The content is topical, simple and to the point and the site is not overcrowded as to put the user off.
+\
+&nbsp;
+
+I encountered a few issues during testing.
+* 
+* Stylesheet Conflicts
+After testing, certain styles on the font awesome icons were not showing. DevTools was used to troubleshoot the problem. It could be seen that the syles in styles.css were being overwritten by another styles sheet. Making sure that the link for the the font awesome icons was above the link to the styles.css in index.html sorted out the issue as styles.css then became priorty in terms of any styles written. 
+* Audio Autoplay issues
+This error is in relation to how browsers work with sound on websites. Most browsers prevent auto play of sound, and prevent sound being played without specific user interaction. This means the sound does not auto play, and the user must toggle the audio on/off on the home page, start of quiz, and end game page. Otherwise all sounds work correctly as they are initialised by some sort of user action, i.e a button click. There is a lot of information found separately on the subject (https://stackoverflow.com/questions/17889297/sound-does-not-play-in-mobile) and specifically on Chromes autoplay policies (https://developer.chrome.com/blog/autoplay/).
+
+### Unsolved bugs and errors
+* The username validation when saving highscore stopped working when I tried to make the field a required username, I attempted to debug the issue but unfortunately had no success. I hope that as I continue to develop my skillset as a Developer, I will be able to fix errors like this with ease.
 
 #
 ## Deployment
