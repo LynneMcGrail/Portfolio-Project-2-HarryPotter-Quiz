@@ -113,7 +113,39 @@ let questions = [{
         choice3: 'Defense against the dark arts',
         choice4: 'Transfiguration',
         answer: 1,
-    }
+    },
+    {
+        question: "What are non-magic folk referred to as?",
+        choice1: 'Mudbloods',
+        choice2: 'Squibs',
+        choice3: 'Animagous',
+        choice4: 'Muggles',
+        answer: 4,
+    },
+    {
+        question: "What does Polyjuice potion do?",
+        choice1: 'To transform into an animal',
+        choice2: 'To take the form of someone else',
+        choice3: 'To time travel',
+        choice4: 'To fly a car',
+        answer: 2,
+    },
+    {
+        question: "Which patronus belongs to Harry?",
+        choice1: 'Horse',
+        choice2: 'Hare',
+        choice3: 'Stag',
+        choice4: 'Dog',
+        answer: 3,
+    },
+    {
+        question: "What spell did Harry use to kill Voldemort?",
+        choice1: 'Avada Kedavra',
+        choice2: 'Expecto Patronum',
+        choice3: 'Wingardium Leviosa',
+        choice4: 'Expelliarmus',
+        answer: 4,
+    },
 ]
 
 const SCORE_POINTS = 100
