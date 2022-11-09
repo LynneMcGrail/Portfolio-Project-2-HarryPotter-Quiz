@@ -110,6 +110,7 @@ The **user** is any person who has read the Harry Potter book series or seen the
 
 ## Design 
 ### Wireframes 
+* I used [Balsamic](https://balsamiq.com/) to develop my wireframes for my website. I initially created the mobile version, and then scalled it up for tablet and desktop. Because one of my requirement is to give a seamless experience to the user to make them want when engaged with the quiz, there are navigation buttons throughout to enable this on all pages.
 [The wireframes can be viewed here](assets/readme-docs/HP-wireframes.pdf)
 
 ## Site Structure
