@@ -254,6 +254,67 @@ The highscores CSS file was tested<br>
   * [Link to CSS highscores validator report](http://jigsaw.w3.org/css-validator/validator$link) 
 
 #
+## Deployment
+  ### Remote Deployment
+  (Assuming you have already cloned or forked)
+* Following writing the code, then committing and pushing to GitHub, this project was deployed using GitHub through the following the steps:
+
+1. Navigate to the repository on GitHub and click on the `Settings` icon at the top of page in the navigation bar
+2. Scroll down until you see `Github Pages` on the side navigation
+3. Choose the branch in the drop down box, in this case `Main`
+4. Choose the directory in the next drop down box, in this case `Root`
+5. Then click `Save`
+6. It may take a few moments for the site to publish, but once live, the box at the top of the page with the site name will turn green and have a `Green` tick to the left of the link to the live site
+7. Another way to find the live site is to navigate to settings, on the left menu click on `pages` and this will get you to the same point.
+8. Now the website is now live on https://lynnemcgrail.github.io/Portfolio-Project-2-HarryPotter-Quiz/
+9. If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
+
+### Git Commands Used
+The following commands were used for version control during project:
+
+* git add `example filename` - to add files before committing.
+* git commit -m `"example message"` - to commit changes to the local repository.
+* git push - to push all committed changes to the GitHub repository.
+* git status to display the working area to see which changes have been staged and which haven't. 
+
+#
+## How to fork a repository:
+
+If you need to "FORK" a repository:
+
+1. If you have not already, login in to [GitHub](www.github.com) and go to https://github.com/LynneMcGrail/Portfolio-Project-2-HarryPotter-Quiz
+2. In the top right corner, click `Fork`
+3. The next page will be the forked version of https://github.com/LynneMcGrail/Portfolio-Project-2-HarryPotter-Quiz but in your own repository
+
+#
+## How to clone a repository:
+
+If you need to make a clone of this repository:
+
+1. Fork the repository https://github.com/LynneMcGrail/Portfolio-Project-2-HarryPotter-Quiz using the steps above
+2. Above the file list, click `Code` (Usually green at the top right of the code window)
+3. Choose if you want to clone using HTTPS, SSH or GitHub CLI, then click the copy button to the right
+4. Open Git Bash
+5. Change the directory to where you want your clone to go (your own github)
+6. Type `git clone` and then paste the URL you copied in step 4
+7. Press `Enter` to create your clone
+
+#
+## How to make a local clone:
+
+If you need to make a local clone:
+
+1. If you have not already, login in to [GitHub](www.github.com) and go to https://github.com/LynneMcGrail/Portfolio-Project-2-HarryPotter-Quiz
+2. Under the repository name, above the list of files, click `Code`
+3. Here you will have two options, `Clone` or `Download` the repository
+4. You should close the repository using HTTPS, clicking on the icon to copy the link
+5. At this point, you can launch the `Gitpod workspace` or choose your own directory
+5. Open Git Bash
+6. Change the current working directory to the new location of where you want the cloned directory to be
+7. Type git clone and then paste the URL you copied in step 4
+8. Press Enter, to create your local clone to your chosen directory
+
+#
 ## Credits and References
 * [3D CSS effect in h1 CSS code](https://codepen.io/ryandsouza13/pen/yEBJQV). 
 * [Hogwarts Crest image](https://commons.wikimedia.org/wiki/File:Hogwarts-Crest.png).
@@ -274,7 +335,6 @@ The highscores CSS file was tested<br>
 * Help creating responsive navigation with no JS was [Kevin Powell Youtube](https://www.youtube.com/watch?v=8QKOaTYvYUA&ab_channel=KevinPowell)
 * The community on slack for feedback, and pointing me to [W3Schools](https://www.w3schools.com/) for more indepth guides to the uses of JAVASCRIPT, HTML and CSS. 
 * Responsive media queries guidance was [W3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
-* The guidance for the `hamburger menu` using CSS code was [unused-css.com](https://unused-css.com/blog/css-only-hamburger-menu/)
 * To compress my audio file I found this website [Compress Audio Online](https://www.compresss.com/compress-audio.html)
 
 #
@@ -286,5 +346,7 @@ The highscores CSS file was tested<br>
 - Stack Overflow for troubleshooting and fixing errors
 - The Slack community for tips, advice, quick fixes and kind words. Especially [Chris Williams](https://github.com/Chr15w1986) who gave me good advice and for better coding practice.
 - My family for their support and patience.
+
+This site Harry Potter Quiz was designed and developed in conjunction with the Full Stack Software Developer Diploma course (eccommerce) at the Code Institute. I would like to thank my mentor, my cohort facilitator, the members of our cohort, the Slack community and Code Institute for all their support.
 
 #### RETURN TO THE [TOP](#harry-potter-quiz)
