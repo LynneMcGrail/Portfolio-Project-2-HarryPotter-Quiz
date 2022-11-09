@@ -124,10 +124,10 @@ let questions = [{
     },
     {
         question: "What does Polyjuice potion do?",
-        choice1: 'To transform into an animal',
-        choice2: 'To take the form of someone else',
-        choice3: 'To time travel',
-        choice4: 'To fly a car',
+        choice1: 'Allows the drinker to transform into an animal',
+        choice2: 'Allows the drinker to take the form of someone else',
+        choice3: 'Allows the drinker to time travel',
+        choice4: 'Allows the drinker to breathe under water',
         answer: 2,
     },
     {
