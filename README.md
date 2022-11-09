@@ -56,15 +56,17 @@ My initial idea for this project was to create a quiz that is simple to use and 
   * [CODE](#code-sources)
 - [ACKNOWLEDGEMENTS](#acknowledgements)
 
-# User Experience (UX/UI)
+# UX/UI
+The quiz was created to show my programming knowledge of JAVASCRIPT, including HTML and CSS. 
 ## Site Goals
+* To showcase my skills in JAVASCRIPT, HTML and CSS. 
 * The provide an interactive experience that is easily accessible in terms of navigation and to manouver throughout the site.
-* The quiz end score needs to be personalised to each user.
-* It needs to be easy to see thier progress and how many questions there are.
+* To personalise the quiz end score to each user.
+* To easily be able to see thier progress and how many questions there are left.
 * To display how many correct points the user has achieved throughout the quiz at all times.
-* It needs to be instantly engaging to enourage the user to play the game.
-* Questions to be randomised and drawn from a bank of available questions.
-* The user must be able to give up on the quiz if they wish to, and return to the homepage.
+* It needs to be instantly engaging to encourage the user to play the game.
+* Questions to be randomised and drawn from a bank of available questions. This strengthens replay ability. 
+* The user must be able to leave the quiz if they wish to, and return to the home page.
 
 ## First Time Visitor Goals
 * I want it to be easy for the user to start game play.
@@ -75,7 +77,8 @@ My initial idea for this project was to create a quiz that is simple to use and 
 * I want to have different questions by randomising the question generator, in order to increase replayability and enhance user experience.
 * To be able to review their top high scores to beat them by replaying the quiz and building on their Harry Potter knowledge. 
 
-## User Stories
+#
+## User Stories  
 The **user** is any person who has read the Harry Potter book series or seen the movies and would like to test their Wizarding World of Harry Potter knowledge.
 
 | ID | ROLE | ACTION | GOAL |
@@ -89,7 +92,24 @@ The **user** is any person who has read the Harry Potter book series or seen the
 | 7 | USER | As a user, I want to be able to play a new game when the current one ends | So I can see if I can beat my score|
 | 8 | USER | As a user, when I play the quiz I want the questions to be randomly ordered | So the game can be as challenging as possible |
 
-## Design Wireframes 
+#
+## Requirements 
+- Easy to navigate on various screen sizes and devices.
+- Accessible and easy to understand how to play the quiz
+- Keep the user engaged through user experience; progress bar, score keeper, ambient background music (optional), end score & the ability to join the highscores leaderboard.
+- Networking links to the quiz creator's professional portfolio. 
+- Visually inviting and readable, so user is not likely to leave the quiz page.
+
+#
+## Expectations 
+- The user will be required to enter their username on finishing the game in order to join the highscores leaderboard
+- All networking links will be functional and open in a separate tab
+- I expect all page navigation links and buttons (e.g. audio toggle on/off) to work correctly and open in the same tab, but navigate to the option selected by the user. 
+- I expect screen size not to affect the quality of the website.
+- I expect each question to provide feedback to the user and let them know what the correct answer was, should they answer a question wrong.
+
+## Design 
+### Wireframes 
 
 ### [INSERT HERE]
 
