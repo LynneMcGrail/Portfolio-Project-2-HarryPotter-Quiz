@@ -110,8 +110,7 @@ The **user** is any person who has read the Harry Potter book series or seen the
 
 ## Design 
 ### Wireframes 
-
-### [INSERT HERE]
+[The wireframes can be viewed here](assets/readme-docs/HP-wireframes.pdf)
 
 ## Site Structure
 The Harry Potter quiz consists of multiple screens as the user interacts with and navigates through the quiz. The Home screen offers two navigation paths, one to enter the quiz, and another to see the highscores. Each screen has identifiable controls on them; the home page allows the user to initiate game play, also the sound icon enables the user to toggle the sound on or off. When the user progresses to play the quiz, they will find a home button to escape at any point, the progress bar will appear in gameplay to track questions answered out of total in quiz e.g. 1 of 10, and a score keeper which tallies the user's score as they progress through the quiz. Upon finishing the quiz the user is immediately taken to the results screen that gives the option to input their username and save their highscore, which will then show them the "House Cup" page. From the results screen they can also navigate back to the home page, or play the game again instantly.
