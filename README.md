@@ -125,7 +125,7 @@ It is intuitively designed so the user can easily navigate it, along with visibl
 # Testing
 ## Code Validation and Accessibility
 ### JSHint 
-The Javascript files were validated via JSHint. Due to there being multiple Javascript files, validating each page threw up multiple warnings, many of which were undefined varibles. This was due to the variables and functions being defined or called on other pages. 
+The Javascript files were validated through JSHint. Due to there being multiple Javascript files, validating each page threw up multiple warnings, many of which were undefined varibles. This was due to the variables and functions being defined or called on other pages. The missing semicolon warnings do not affect functionality of the code.
 
 JSHint came up with no errors and multiple warnings which are explained below in [Unresolved Bugs](<#unresolved-bugs>).
 
