@@ -122,16 +122,31 @@ The final color scheme chosen was a rich dark red (scarlet) colour, and a gold c
 ![Site colour scheme](assets/readme-docs/color-palette.png)
 
 ### Typography
-The fonts chosen were Pathway Gothic and set to cursive for the main text, Sans-serif is the fallback font. I used Google Fonts to import into my css styling.
+The font chosen was Pathway Gothic and this is set to cursive for the main text, Sans-serif is the fallback font. I used Google Fonts to import into my css styling.
 
-I chose this font as it ties nicely with the theme of the project. There is quite a historic vintage feel to the font, and with the right styling I think it fits in with the Harry Potter theme and also works well alongside the Harry Potter logo in my project. 
-
-[Back to top](<#contents>)
+I chose this font as it ties nicely with the theme of the project. There is quite a historic, vintage feel to the font, and with the cursive styling I think it fits in with the Harry Potter theme and also works well alongside the Harry Potter logo in my project. 
 
 # Features
 This Harry Potter Quiz was created to produce an immersive experience for the user through the use of both design and site structure. It moves away from the typical website structure with the menubar and is structured and designed more like a game.
 
-It is intuitively designed so the user can easily navigate it, along with visible and recognisable Home and Sound button icons, and visual ques reflecting the topic.
+It is intuitively designed so the user can easily navigate it, along with visible and recognisable Home and Sound button icons, and visual ques reflecting the topic of the project.
+
+#
+## Features 
+* The site consists of:
+    * 5 main sections on one page, `HOME, ABOUT, UPCOMING EVENTS, GALLERY, CONTACT US`
+    * The page contains a `HEADER (TITLE)`, `NAVBAR`, `MAIN CONTENT (TEXT AND IMAGES)` and `FOOTER (SOCIAL MEDIA ICONS/LINKS`
+* Navigation bar:
+    * The navigation bar is fully responsive to allow for various screen sizes. It includes links to maneuver through the site easily with each menu option navigating to it's particular section.<br>
+    <img src="assets/readme-docs/testing:navigation-menu.png" width=400><br>
+    * On mobile and tablet screen sizes you can see the hamburger menu option appears, highlighting the responsiveness of the site across device sizes<br>
+    * Hamburger navigation menu<br>
+    <img src="" width=400><br>
+    
+    <img src="" width=200>
+
+* Footer:<br>
+<img src="assets/readme-docs/testing:footer.png" width=400>
 
 ## Navigation
 * The site navigation is done through the clickable buttons which easily indicate how to navigate the game to the user. Throughout the site the user will find these buttons at hand to navigate away from their current stage at any point.
@@ -238,4 +253,38 @@ The highscores CSS file was tested<br>
   <img width="600" src="assets/readme-docs/CSSValidator-highscores_css.png">
   * [Link to CSS highscores validator report](http://jigsaw.w3.org/css-validator/validator$link) 
 
-  
+#
+## Credits and References
+* [3D CSS effect in h1 CSS code](https://codepen.io/ryandsouza13/pen/yEBJQV). 
+* [Hogwarts Crest image](https://commons.wikimedia.org/wiki/File:Hogwarts-Crest.png).
+* Background image was from [Unsplash](https://unsplash.com/photos/5qUJfO4NU4o)
+* Audio file for fire crackling sound was sourced from [Free Sounds Library](https://www.freesoundslibrary.com/fire-sound/)
+* Audio file for Harry Potter Theme Song was sourced from [Youtube - link in video description](https://www.youtube.com/watch?v=eHn8eF0nwD0&ab_channel=KenezNonwar)
+* [James Q Quick tutorial for building a quiz app](https://www.youtube.com/watch?v=u98ROZjBWy8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&ab_channel=JamesQQuick)
+* [Javascript quiz tutorial source](https://www.sitepoint.com/simple-javascript-quiz/)
+* [Code help for learning to loop audio](https://stackoverflow.com/questions/13610638/loop-audio-with-javascript)
+* [Code for looping audio in Javascript](https://stackoverflow.com/questions/13610638/loop-audio-with-javascript)
+* [Code help for learning to toggle play/pause function for audio in Javascript](https://siongui.github.io/2012/10/12/javascript-toggle-sound-onclick/)
+* [Tutorial for using local storage for high scores](https://www.youtube.com/watch?v=jfOv18lCMmw&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=10&ab_channel=JamesQQuick)
+
+### Code Sources
+
+* Code for h1 3D CSS styling effect can be found here [Codepen](https://codepen.io/ryandsouza13/pen/yEBJQV)
+* Responsive Design tutorials on [Youtube](https://www.youtube.com/) for responsive code in CSS - Kevin Powell, and Web Dev Simplified were particularly helpful to me. 
+* Help creating responsive navigation with no JS was [Kevin Powell Youtube](https://www.youtube.com/watch?v=8QKOaTYvYUA&ab_channel=KevinPowell)
+* The community on slack for feedback, and pointing me to [W3Schools](https://www.w3schools.com/) for more indepth guides to the uses of JAVASCRIPT, HTML and CSS. 
+* Responsive media queries guidance was [W3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+* The guidance for the `hamburger menu` using CSS code was [unused-css.com](https://unused-css.com/blog/css-only-hamburger-menu/)
+* To compress my audio file I found this website [Compress Audio Online](https://www.compresss.com/compress-audio.html)
+
+#
+## Acknowledgements:
+
+- Code institute for the Mentors and Tutors on the course. Especially our Facilitator and Masterclass mentor [Simen Daehlin](https://github.com/Eventyret) and his patience helping us understand testing and bug solving.
+- My Mentor [Jubril Akolade](https://www.linkedin.com/in/jubrillionaire/) for guiding me in the right direction and helping me establish good coding practice. Also for his guidance and advice on developing a more responsive website.
+- My fellow classmates for their ideas and enthusiasm on our facilitator sessions and masterclasses, and also their support on Slack.
+- Stack Overflow for troubleshooting and fixing errors
+- The Slack community for tips, advice, quick fixes and kind words. Especially [Chris Williams](https://github.com/Chr15w1986) who gave me good advice and for better coding practice.
+- My family for their support and patience.
+
+#### RETURN TO THE [TOP](#harry-potter-quiz)
