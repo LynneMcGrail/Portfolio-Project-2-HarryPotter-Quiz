@@ -146,6 +146,22 @@ let questions = [{
         choice4: 'Expelliarmus',
         answer: 4,
     },
+    {
+        question: "What is a thestral?",
+        choice1: 'A half-giant',
+        choice2: 'An invisible winged horse',
+        choice3: 'A pixie',
+        choice4: 'A shrunken head',
+        answer: 2,
+    },
+    {
+        question: "The tears of which animal are the only known cure for basilisk venom?",
+        choice1: 'Phoenix',
+        choice2: 'Hippogriff',
+        choice3: 'Billywig',
+        choice4: 'Boggart',
+        answer: 1,
+    },
 ]
 
 const SCORE_POINTS = 100
