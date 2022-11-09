@@ -6,11 +6,12 @@ A Quiz is an intellectual game where the user's knowledge is tested in both a ch
 
 * [Here is a link to the live site - Harry Potter Quiz](https://lynnemcgrail.github.io/Portfolio-Project-2-HarryPotter-Quiz/) 
 
-### Final Design 
-![Final project image home page]()
+## Final Design 
+![Final project image home page](assets/readme-docs/FinalDesignPP2.png)
 
-### Initial Requirements
-#### The main features that I wanted to include are:
+## Initial Idea Concept
+My initial idea for this project was to create a quiz that is simple to use and has replay ability so that site users could play again with different questions and challenge themselves. This quiz is suitable for all ages and skill levels. I chose to reflect the Gryffindor colours so that it appealed to fans of the Harry Potter books and movies.
+#### The features I wanted to include:
 * Interactive quiz elements to enhance user experience.
 * A progress bar so that the user can see how far through the quiz they are, and how many questions are left.
 * A score keeper for amount of correct answers.
@@ -19,9 +20,43 @@ A Quiz is an intellectual game where the user's knowledge is tested in both a ch
 * To create an easy to navigate quiz with buttons so that the user can navigate home, to play the game, save their score at the end and visit the highscores page. The user can also navigate back to the home page at any point during the quiz should they not wish to finish the game.
 * For the quiz to look fun and interactive through colours, images and icons which are symbolic of The Wizarding World of Harry Potter. Note the broomstick and castle Font Awesome icons used within the quiz. The background audio is also the theme song for Harry Potter which aims to enhance the users experience and enjoyment.
 * To include social network links in the footer to my professional portfolio, my Github and Linkedin accounts.
-* To be fully responsive so the user can play across multiple platforms.
+* To be fully responsive so that it works across all screen sizes and devices.
 
-# User Experience (UX)
+#
+## Table of Contents
+- [UX/UI](#uxui)
+    * [SITE GOALS](#site-goals)
+    * [USERSTORIES](#user-stories)
+    * [REQUIREMENTS](#requirements)
+    * [EXPECTATIONS](#expectations)
+- [WIREFRAMES](#wireframes)
+  * [FEATURES](#features)
+  * [DESIGN](#design)
+- [LANGUAGES USED](#languages-used)
+  * [PROGRAMMES USED](#programmes-used)
+- [TESTING](#testing)
+  * [FUTURE FEATURES TO BE IMPLEMENTED](#future-features-to-be-implemented)
+  * [DEVICES](#devices)
+  * [VALIDATION AND ACCESSIBILITY](#validation-and-accessibility)
+  * [LIGHTHOUSE](#lighthouse)
+  * [ACCESSIBILITY](#accessibility)
+  * [CSS](#css)
+  * [HTML](#html)
+  * [FUNCTIONALITY](#functionality)
+- [BUGS AND ERRORS](#bugs-and-errors)
+  * [SOLVED BUGS AND ERRORS](#solved-bugs-and-errors)
+  * [UNSOLVED BUGS AND ERRORS](#unsolved-bugs-and-errors)
+- [DEPLOYMENT](#deployment)
+  * [REMOTE](#remote-deployment)
+  * [HOW TO FORK A REPOSITORY](#how-to-fork-a-repository)
+  * [HOW TO CLONE A REPOSITORY](#how-to-clone-a-repository)
+  * [HOW TO MAKE A LOCAL CLONE](#how-to-make-a-local-clone)
+- [CREDITS](#credits-and-references)
+  * [IMAGES AND INFORMATION](#images-and-information-sources)
+  * [CODE](#code-sources)
+- [ACKNOWLEDGEMENTS](#acknowledgements)
+
+# User Experience (UX/UI)
 ## Site Goals
 * The provide an interactive experience that is easily accessible in terms of navigation and to manouver throughout the site.
 * The quiz end score needs to be personalised to each user.
