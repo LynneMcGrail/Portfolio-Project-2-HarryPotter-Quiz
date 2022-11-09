@@ -121,18 +121,37 @@ It is intuitively designed so the user can easily navigate it, along with visibl
 ### Solved bugs and errors
 
 [insert here]
-## Validation and Accessibility
+#
+# Testing
+## Code Validation and Accessibility
+### JSHint 
+The Javascript files were validated via JSHint. Due to there being multiple Javascript files, validating each page threw up multiple warnings, many of which were undefined varibles. This was due to the variables and functions being defined or called on other pages. 
+
+JSHint came up with no errors and multiple warnings which are explained below in [Unresolved Bugs](<#unresolved-bugs>).
+
+![JSHint validation for script.js](assets/readme-docs/JSHint-js-script.png)
+![JSHint validation for game.js](assets/readme-docs/JSHint-game-js.png)
+![JSHint validation for end.js](assets/readme-docs/JSHint-end-js.png)
+![JSHint validation for highscores.js](assets/readme-docs/JSHint-highscores-js.png)
 
 ## **Lighthouse**
-### **Lighthouse Report:**
-* The quiz was also put through Lighthouse testing via Chrome DevTools which tests the site under 4 different headings; Performance, Accessibility, Best Practices and SEO and it tests it under mobile and desktop criteria.
-  
+The quiz was also put through Lighthouse testing via Chrome DevTools which tests the site under 4 different headings; Performance, Accessibility, Best Practices and SEO and it tests it under mobile and desktop criteria.
+<br>
+### **Lighthouse Reports:**
+
+#### index.html
   <img width="400" src="assets/readme-docs/Lighthouse-indexHTML.png">
   <br>
+
+  #### game.html
   <img width="400" src="assets/readme-docs/Lighthouse-gameHTML.png">
   <br>
+
+  #### end.html
   <img width="400" src="assets/readme-docs/Lighthouse-endHTML.png">
   <br>
+
+  #### highscores.html
   <img width="400" src="assets/readme-docs/Lighthouse-highscoresHTML.png">
   <br>
 
