@@ -134,16 +134,10 @@ It is intuitively designed so the user can easily navigate it, along with visibl
 #
 ## Features 
 * The site consists of:
-    * 5 main sections on one page, `HOME, ABOUT, UPCOMING EVENTS, GALLERY, CONTACT US`
-    * The page contains a `HEADER (TITLE)`, `NAVBAR`, `MAIN CONTENT (TEXT AND IMAGES)` and `FOOTER (SOCIAL MEDIA ICONS/LINKS`
-* Navigation bar:
-    * The navigation bar is fully responsive to allow for various screen sizes. It includes links to maneuver through the site easily with each menu option navigating to it's particular section.<br>
-    <img src="assets/readme-docs/testing:navigation-menu.png" width=400><br>
-    * On mobile and tablet screen sizes you can see the hamburger menu option appears, highlighting the responsiveness of the site across device sizes<br>
-    * Hamburger navigation menu<br>
-    <img src="" width=400><br>
-    
-    <img src="" width=200>
+    * One main section containing the functions to `PLAY GAME, HIGHSCORES, FOOTER NETWORKING LINKS`
+        <img src="assets/readme-docs/main-page.png" width=400>
+    * The page contains `NAVIGATION BUTTONS` `MAIN CONTENT (TEXT AND IMAGES)`
+    <img src="assets/readme-docs/navigation.png" width=200><br>
 
 * Footer:<br>
 <img src="assets/readme-docs/testing:footer.png" width=400>
