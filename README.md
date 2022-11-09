@@ -35,8 +35,6 @@ My initial idea for this project was to create a quiz that is simple to use and 
 - [LANGUAGES USED](#languages-used)
   * [PROGRAMMES USED](#programmes-used)
 - [TESTING](#testing)
-  * [FUTURE FEATURES TO BE IMPLEMENTED](#future-features-to-be-implemented)
-  * [DEVICES](#devices)
   * [VALIDATION AND ACCESSIBILITY](#validation-and-accessibility)
   * [LIGHTHOUSE](#lighthouse)
   * [ACCESSIBILITY](#accessibility)
@@ -131,16 +129,14 @@ This Harry Potter Quiz was created to produce an immersive experience for the us
 
 It is intuitively designed so the user can easily navigate it, along with visible and recognisable Home and Sound button icons, and visual ques reflecting the topic of the project.
 
-#
-## Features 
 * The site consists of:
     * One main section containing the functions to `PLAY GAME, HIGHSCORES, FOOTER NETWORKING LINKS`
         <img src="assets/readme-docs/main-page.png" width=400>
     * The page contains `NAVIGATION BUTTONS` `MAIN CONTENT (TEXT AND IMAGES)`
     <img src="assets/readme-docs/navigation.png" width=200><br>
 
-* Footer:<br>
-<img src="assets/readme-docs/testing:footer.png" width=400>
+    * Footer:<br>
+    <img src="assets/readme-docs/footer.png" width=400>
 
 ## Navigation
 * The site navigation is done through the clickable buttons which easily indicate how to navigate the game to the user. Throughout the site the user will find these buttons at hand to navigate away from their current stage at any point.
@@ -349,6 +345,11 @@ If you need to make a local clone:
 * Responsive media queries guidance was [W3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 * To compress my audio file I found this website [Compress Audio Online](https://www.compresss.com/compress-audio.html)
 
+#
+## Programmes used
+- HTML5
+- CSS3
+- Javascript 
 #
 ## Acknowledgements:
 
