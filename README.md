@@ -265,15 +265,11 @@ In my opinion, the site has hit the goals required by all users. The site respon
 &nbsp;
 
 I encountered a few issues during testing.
-* Username Validation:
-When trying to get the username validation (in unsolved bugs below) to work, the Javascript loop then didn't save the username and instead looped back to the save score page. And that's why the validation has not been implemented
+* The username validation when saving highscore stopped working when I tried to make the field a required username, I attempted to debug the issue but unfortunately had no success. The Javascript loop then didn't allow the user to save their username and instead looped back to the save score page. And that's why the validation has not been implemented. I hope that as I continue to develop my skillset as a Developer, I will be able to fix errors like this with ease.
 * Stylesheet Conflicts:
 After testing, certain styles on the font awesome icons were not showing. DevTools was used to troubleshoot the problem. It could be seen that the syles in styles.css were being overwritten by another styles sheet. Making sure that the link for the the font awesome icons was above the link to the styles.css in index.html sorted out the issue as styles.css then became priorty in terms of any styles written. 
 * Audio Autoplay issues:
 This error is in relation to how browsers work with sound on websites. Most browsers prevent auto play of sound, and prevent sound being played without specific user interaction. This means the sound does not auto play, and the user must toggle the audio on/off on the home page, start of quiz, and end game page. Otherwise all sounds work correctly as they are initialised by some sort of user action, i.e a button click. There is a lot of information found separately on the subject (https://stackoverflow.com/questions/17889297/sound-does-not-play-in-mobile) and specifically on Chromes autoplay policies (https://developer.chrome.com/blog/autoplay/).
-
-### Unsolved bugs and errors
-* The username validation when saving highscore stopped working when I tried to make the field a required username, I attempted to debug the issue but unfortunately had no success. I hope that as I continue to develop my skillset as a Developer, I will be able to fix errors like this with ease.
 
 #
 ## Deployment
